@@ -1,0 +1,582 @@
+body {
+    margin: 0;
+    padding: 0;
+      min-width: 1200px;
+      font-weight:500;
+      font-size:14px;
+      line-height:24px;
+      font-family: "roboto","arial", sans-serif;
+      color: black;
+  }
+  
+  .clearfix::after{
+      content:"";	
+      display:table;
+      clear:both;
+  }
+  
+  .header {
+      min-height: 80px;
+      color: #007465;
+      background-color: white;
+      
+  }
+  
+  .layout-positioner {
+      width: 1140px;
+      margin: 0 auto;
+  }
+  
+  .header-logo {
+      float: left;
+      width: 215px;
+    min-height: 55px;
+      margin: 13px 0px 12px 35px;
+      
+    background-color: rgba(236, 240, 241, 0.9);
+  }
+  
+  .header-adress {
+      float: left;
+      margin: 13px 0 0 35px;
+      text-align: right;
+      font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .header-headerbox3 {
+      float: left;
+      margin: 13px 0px 0 35px;
+  }
+  
+  .header-phone {
+      
+      font-size: 22px;
+  }
+  
+  .header-email {
+      font-size: 14px;
+  }
+  
+  .header-button {
+      float: right;
+      margin: 13px 20px 0 35px;
+      background-color: white;
+      width: 250px;
+      color: orange;
+      padding: 12px;
+      text-align: center;
+      border: solid 2px orange;
+      border-radius: 5px 15px 5px 5px;
+  }
+  
+  .header-button:hover {
+      float: right;
+      margin: 13px 20px 0 35px;
+      background-color: orange;
+      width: 250px;
+      color: white;
+      padding: 12px;
+      text-align: center;
+      border: solid 2px orange;
+      border-radius: 5px 15px 5px 5px;
+  }
+  
+  .menu {
+    position: sticky;
+    float: right;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+      background-color: #D7D7D7;
+      color: #030303;
+      height: 46px;
+  }
+  
+  .layout-menu {
+      float: right;
+  }
+  
+  .layout-menu ul{
+      font-size: 0px;
+      float: right;
+  }
+  
+  .layout-menu li{
+      display: inline-block;
+      font-size: 15px;
+      line-height: 20px;
+      vertical-align: center;
+    
+  }
+  
+  .layout-menu a {
+      display: block;
+      padding: 13px 20px;
+      text-decoration: none;
+    color: #030303;
+  }
+  
+  .layout-menu a:hover {
+      background:#828282;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .adv-back {
+      min-height: 380px;
+      background-color: #1A201E;
+      color: #FFFFFF;
+  }
+  
+  
+  .image-container {
+      
+      width: 100%;
+      height: 50vh;
+      background: #1A201E url(https://images.unsplash.com/photo-1493777427222-428d3152dbc4?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+    background-blend-mode: soft-light; 
+      background-size: cover;
+      background-position: center;
+      border-bottom-left-radius: 50% 7%;
+      border-bottom-right-radius: 50% 7%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    
+  }
+  
+  .image-container h1 {
+      font-size: 64px;
+  }
+  
+  .image-container p {
+      font-size: 36px;
+  }
+  
+  .about-us {
+    padding: 100px 50px;
+    text-align: center;
+  }
+  
+  .about-us h2{
+    color: #007465;
+  }
+  
+  .about-us span{
+    color: #007465;
+  }
+  .spacer {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    position: relative;
+    height: 50px;
+  }
+  
+  .hook {
+    
+  }
+  
+  .left-advantage {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 50px;
+    width: 50%;
+  }
+  
+  .left-advantage h4 {
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 7px;
+  }
+  
+  .left-advantage p {
+    font-weight: 200;
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .right-advantage {
+    position: absolute;
+    right: 0;
+    top: 0;
+    vertical-align: top;
+    display: inline-block;
+    height: 50px;
+    width: 45%;
+    border-left: solid 2px #007465;
+    padding-left: 20px;
+  }
+  
+  .right-advantage h4 {
+    position: absolute;
+    bottom: 14px;
+    margin: 0;
+    font-weight: 400;
+    font-size: 28px;
+  }
+  
+  
+  
+  
+  .adv-pic {
+    display: inline-block;
+    overflow: hidden;
+    width: 350px;
+    height: 260px;
+    margin: 10px;
+  }
+  
+  .spacer2 {
+    margin-top: 70px;
+    margin-bottom: 100px;
+  }
+  .adv-footer-cont {  
+    background: rgba(0, 116, 101, 0.94);
+      color: #FFFFFF;
+    padding: 5px 0;
+  }
+  .adv-footer-hook {
+    margin: 60px 0;
+    
+    text-align: center;
+  }
+  .adv-footer-hook h4 {
+    font-weight: 200;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  .adv-footer-hook p {
+    font-weight: 200;
+    font-size: 20px;
+    margin: 0;
+  }
+  .adv-footer-brick {  
+    display: inline-block;
+    text-align: center;
+    width: 350px;
+    height: 150px;
+    margin: 0 10px 100px;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  .adv-footer-item {
+    margin: 20px auto;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #F4703D;
+    
+  }
+  /*--------------блок каталога--------------*/
+  .section-title {
+    padding-top: 50px;
+    text-align: center;
+  }
+  .section-title h2{
+    font-weight: 400;
+    font-size: 30px;
+    margin: 0 0 25px; 
+  }
+  .section-title hr{
+    border: none;
+    background-color: #007465;
+    height: 3px;
+    width: 55px;
+  }
+  
+  .catalog-item-container {
+    margin-top: 80px;
+  }
+  
+  .catalog-specs-container p {
+    margin: 0;
+    font-size: 16px;
+  }
+  .catalog-descs-container p {
+    margin: 0;
+    font-size: 16px;
+  }
+  .catalog-item-container span{
+    color: #20A796;
+    font-size: 16px;
+  }
+  
+  .catalog-specs-container {
+    display: inline-block;
+    width: 48%;
+  }
+  
+  .catalog-specs-container h3{
+    font-size: 28px;
+    font-weight: 400;
+    margin: 0 0 60px;
+  }
+  
+  .catalog-image-container {
+    display: inline-block;
+    margin: 50px 15px 30px 0;
+    width: 120px;
+    height: 100px;
+    overflow: hidden;
+    text-align: center;
+  }
+  .catalog-image-container:last-child {
+    margin-right: 0;
+  }
+  
+  .catalog-image-container img {
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    }
+  
+  .catalog-buycontainer {
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 100px;
+    width: 460px;
+    
+  }
+  .catalog-buybutton {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    background-color: white;
+      width: 245px;
+      color: orange;
+      padding: 12px;
+      text-align: center;
+      border: solid 2px orange;
+      border-radius: 5px 15px 5px 5px;
+    
+  }
+  
+  .catalog-buybutton:hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    background-color: orange;
+      width: 245px;
+      color: white;
+      padding: 12px;
+      text-align: center;
+      border: solid 2px orange;
+      border-radius: 5px 15px 5px 5px;
+    
+  }
+  .catalog-cost {
+    position: absolute;
+    top: -3px;
+    right: 0;
+  }
+  .catalog-cost p {
+    margin-bottom: 5px;
+    }
+  .catalog-cost h4 {
+    margin: 0;
+    font-size: 27px;
+    }
+  .catalog-variants p{
+    font-weight: 400;
+  }
+  
+  .catalog-descs-container {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+  }
+  .catalog-mainpict-container {
+    margin: 0;
+    width: 100%;
+    height: 545px;
+    overflow: hidden;
+    
+  }
+  .catalog-mainpict-container img {
+    height: 545px;
+    width: auto;
+    }
+  
+  .catalog-maindesc-container {
+    margin-top: 45px;
+  }
+  .catalog-footer {
+    margin-top: 40px;
+    color: #009A87;
+  }
+  
+  .catalog-footer hr {
+    border: 1px dashed #c4c4c4;
+    margin: 15px auto;
+  }
+  .feedback-title {
+    font-size: 22px;
+  }
+  .catalog-feedback {
+    position: relative;
+    background-color: #BFDCD8;
+    
+    height: 90px;
+  }
+  
+  .catalog-feedback-legend {
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    color: #000;
+  }
+  
+  .catalog-feedback-legend p {
+    font-size: 18px;
+  }
+  .catalog-feedback-legend span {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .catalog-form {
+    position: absolute;
+    top: 28px;
+    right: 20px;
+    display: inline-block;
+    margin-left: 30px;
+    vertical-align: middle;
+  }
+  
+  .form-control1 {
+    width: 160px;
+    height: 25px;
+    padding: 3px 16px;
+    margin-right: 20px;
+    border-color: #c4c4c4;
+  }
+  .btn-2ndtype {
+    width: 232px;
+    height: 32px;
+    color: #fff;
+    font-weight: 700;
+    background: #F4703D;
+    border-radius: 5px 15px 5px 5px;
+    border-color: transparent;
+  }
+  
+  .catalog-specs-container,
+  .catalog-descs-container {
+  /*   border: 1px solid #000; */
+    margin: 0 5px;
+  }
+  /*--------------блок каталога--------------*/
+  
+  
+  
+  /*--------------блок карусели--------------*/
+  /* https://habr.com/ru/post/467079/ */
+  /* User styles */
+  .ant-carousel {
+    margin: 50px auto auto;
+    padding-top: 10px;
+    
+    background-color: white;
+  }
+  
+  .ant-carousel-element {
+    width: 350px;
+    height: 260px;
+    margin-right: 45px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  /* General styles */
+  .ant-carousel {
+    width: auto;
+    position: relative;
+  }
+  
+  .ant-carousel-hider {
+    overflow: hidden;
+  }
+  
+  .ant-carousel-list {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .ant-carousel-element {
+    display: block;
+    flex: 0 0 auto;
+  }
+  
+  /* Navigation item styles */
+  div.ant-carousel-arrow-left,
+  div.ant-carousel-arrow-right {
+    width: 22px;
+    height: 40px;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0.5;
+    z-index: 32;
+  }
+  
+  div.ant-carousel-arrow-left {
+    left: -40px;
+    top: 45%;
+    display: block;
+    background: url("http://pvbk.spb.ru/inc/carousel/ant-files/ant-arrow-left.png") no-repeat;
+  }
+  
+  div.ant-carousel-arrow-right {
+    right: -40px;
+    top: 45%;
+    display: block;
+    background: url("http://pvbk.spb.ru/inc/carousel/ant-files/ant-arrow-right.png") no-repeat;
+  }
+  
+  div.ant-carousel-arrow-left:hover {
+    opacity: 1.0;
+  }
+  
+  div.ant-carousel-arrow-right:hover {
+    opacity: 1.0;
+  }
+  
+  div.ant-carousel-dots {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    bottom: -60px;
+    z-index: 30;
+    text-align: center;
+  }
+  
+  span.ant-dot {
+    width: 15px;
+    height: 15px;
+    margin: 0px 7px;
+    padding: 0;
+    display: inline-block;
+    background-color: #007465;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  /*--------------блок карусели--------------*/
