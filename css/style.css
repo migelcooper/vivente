@@ -256,11 +256,21 @@ body {
 }
 
 .adv-footer-item {
+  position: relative;
   margin: 20px auto;
   width: 70px;
   height: 70px;
   border-radius: 50%;
   background-color: #F4703D;
+}
+
+.adv-footer-item>img {
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+  position: absolute;
+  top: 20px;
+  left: 20px;
 }
 
 /*--------------блок каталога--------------*/
@@ -515,11 +525,20 @@ body {
 }
 
 .catalog-footer-item {
+  position: relative;
   margin: 10px auto;
   width: 70px;
   height: 70px;
   border-radius: 50%;
   background-color: #009A87;
+}
+
+.catalog-footer-item>img {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
 }
 
 .catalog-footer-note {
@@ -697,6 +716,7 @@ body {
   background-color: #38585E;
   color: #fff;
   padding-top: 40px;
+  padding-bottom: 1px;
 }
 
 .footer-container {
