@@ -106,14 +106,14 @@ body {
   vertical-align: center;
 }
 
-.layout-menu a {
+.layout-menu li>a {
   display: block;
   padding: 13px 20px;
   text-decoration: none;
   color: #030303;
 }
 
-.layout-menu a:hover {
+.layout-menu li>a:hover {
   background: #828282;
 }
 
@@ -276,7 +276,7 @@ body {
   margin: 0 0 25px;
 }
 
-.section-title hr {
+.section-title>hr {
   border: none;
   background-color: #007465;
   height: 3px;
@@ -414,7 +414,7 @@ body {
   background-color: #fff;
 }
 
-.item-footer hr {
+.item-footer>hr {
   border: 1px dashed #c4c4c4;
   margin: 15px auto;
 }
@@ -552,7 +552,7 @@ body {
   height: 100%;
 }
 
-.reviews hr {
+.review-feedback-container hr {
   border: 1px dashed #c4c4c4;
   margin: 15px auto;
 }
@@ -615,12 +615,12 @@ body {
 
 .example-item-1 img {
   margin-top: 30px;
-  box-shadow: 2px 2px 5px black;
+  box-shadow: 2px 2px 5px rgb(41, 41, 41);
 }
 
 .example-item-2 img {
   margin-top: 30px;
-  box-shadow: 2px 2px 5px black;
+  box-shadow: 2px 2px 5px rgb(41, 41, 41);
 }
 
 .examples-footnote {
@@ -628,12 +628,143 @@ body {
   margin-top: 50px;
 }
 
-.examples-footnote img, span {
+.examples-footnote>img {
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+.examples-footnote>span {
   vertical-align: middle;
   margin-left: 20px;
 }
 
 /*--------------блок примеры--------------*/
+
+/*--------------блок партнеры--------------*/
+
+.partners {
+  padding: 50px 0;
+}
+
+.partners-item {
+  margin-top: 50px;
+}
+
+.partners-logo {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.partners-desktext {
+  display: inline-block;
+  margin-left: 40px;
+  vertical-align: middle;
+}
+
+.partners-logo img {
+  width: 250px;
+  vertical-align: middle;
+}
+
+.partners-desktext>h3 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+.partners-desktext>p {
+  font-size: 16px;
+  font-weight: 300;
+  margin: 10px auto;
+}
+
+.partners-desktext>a {
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+.partners-desktext p>span {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 0;
+}
+
+/*--------------блок партнеры--------------*/
+
+/*--------------блок футер--------------*/
+
+.footer {
+  background-color: #38585E;
+  color: #fff;
+  padding-top: 40px;
+}
+
+.footer-container {
+  display: inline-block;
+  width: 450px;
+}
+
+.footer-container a {
+  display: inline-block;
+  font-size: 16px;
+  color: #F4703D;
+  margin-top: 15px;
+}
+
+.footer-contbox {}
+
+.footer-contbox h2 {
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+.footer-contbox hr {
+  border: none;
+  background-color: #fff;
+  height: 3px;
+  width: 55px;
+}
+
+.footer-social {
+  margin-top: 20px;
+}
+
+.footer-social img {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.footer-social span {
+  font-size: 14px;
+}
+
+.footer-social div {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+}
+
+.footer-container p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footer-map {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.footer-map iframe {
+  /* position: relative; */
+}
+
+/*--------------блок футер--------------*/
 
 /*--------------блок карусели--------------*/
 
